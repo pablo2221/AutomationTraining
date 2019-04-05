@@ -8,13 +8,13 @@ import utilities.driverProvider;
 public class homePageTest{
 
     private WebDriver driver;
-    public homePage homepagee;
+    public homePage homepage;
 
     @BeforeClass
     public void setup(){
 
         driver= driverProvider.createDriver("chrome");
-        homepagee = new homePage(driver);
+        homepage = new homePage(driver);
 
     }
 
@@ -29,7 +29,7 @@ public class homePageTest{
     public void testHomePage(){
 
         driver.get("http://automationpractice.com/index.php");
-        homepagee.clickWomenoption();
+        homepage.clickWomenOption();
 
     }
 

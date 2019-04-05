@@ -20,7 +20,7 @@ public class homePage {
         PageFactory.initElements(this.driver,this);
     }
 
-    public void clickWomenoption() {
+    public void clickWomenOption() {
 
         womenOption.click();
 
