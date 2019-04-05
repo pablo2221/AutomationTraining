@@ -27,6 +27,10 @@ These can be copied in gradle format from here: https://mvnrepository.com/
 3. webdrivermanager
 4. cucumber-junit
 
+**How to import Gradle dependencies?**
+
+Open the file located in your project under the name 'build.gradle'
+copy each line for dependency, gradle by itself will be uploading the dependencies
 
 
 
