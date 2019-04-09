@@ -1,3 +1,4 @@
+import org.openqa.selenium.By;
 import pages.homePage;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
@@ -30,6 +31,23 @@ public class homePageTest{
 
         driver.get("http://automationpractice.com/index.php");
         homepage.clickWomenOption();
+
+    }
+
+    @Test
+    public void testHomePage2(){
+
+        driver.get("http://automationpractice.com/index.php");
+        homepage.clickDressesoption();
+
+    }
+
+    @Test
+    public void cssSelectorTest()throws Throwable{
+
+        driver.get("http://automationpractice.com/index.php");
+        System.out.println(driver.findElement(By.cssSelector("a[title$='T-shirts']")));
+
 
     }
 

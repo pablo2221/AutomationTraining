@@ -10,7 +10,7 @@ public class homePage {
     @FindBy(linkText = "Women")
     private WebElement womenOption;
 
-    @FindBy(linkText = "Dresses")
+    @FindBy (xpath = "/html/body/div/div[1]/header/div[3]/div/div/div[6]/ul/li[2]/a")
     private WebElement dressOption;
 
     private WebDriver driver;
