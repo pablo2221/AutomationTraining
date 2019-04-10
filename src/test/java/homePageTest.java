@@ -51,4 +51,14 @@ public class homePageTest{
 
     }
 
+    @Test
+    public void xpathSelector()throws Throwable{
+
+        driver.get("https://wordpress.com/log-in");
+        System.out.println(driver.findElement(By.xpath("//p[@class='login__form-terms']/a[target$='_blank']")).getText());
+
+    }
+
+
+
 }
