@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/java/features",
         glue = "spedDef",
-        plugin = {"html:reports/cucumber-reports"} /*se creo desde el proyecto un directory llamado reports*/
+        plugin = {"html:reports/cucumber-reports", "json:reports/cucumber.json"} /*se creo desde el proyecto un directory llamado reports*/
 )
 
 public class cucumberRunner {

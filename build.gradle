@@ -1,6 +1,9 @@
 plugins {
     id 'java'
+    id "com.github.spacialcircumstances.gradle-cucumber-reporting" version "0.1.6"
 }
+
+
 
 group 'QA'
 version '1.0-SNAPSHOT'
@@ -20,4 +23,10 @@ dependencies {
     testCompile group: 'io.cucumber', name: 'cucumber-junit', version: '4.2.6'
     compile group: 'io.cucumber', name: 'cucumber-java', version: '4.2.6'
     
+}
+
+cucumberReports {
+    outputDir = file('reports/html')
+    buildId = '0'
+    reports = files('reports/cucumber.json')
 }
