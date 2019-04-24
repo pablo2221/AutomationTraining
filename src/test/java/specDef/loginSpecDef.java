@@ -64,4 +64,10 @@ public class loginSpecDef {
 
     }
 
+    @Then("I see the account page displayed")
+    public void iSeeTheAccountPageDisplayed() {
+
+        Assert.assertEquals(driver.findElement(By.id("center_column")).isDisplayed(), true);
+
+    }
 }
