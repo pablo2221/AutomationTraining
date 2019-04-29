@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2461102377,
+              "duration": 2358822482,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 93623064,
+              "duration": 89925656,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3684639114,
+              "duration": 3687410399,
               "status": "passed"
             },
             "line": 3,
@@ -52,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 138802089,
+              "duration": 180718761,
               "status": "passed"
             },
             "line": 4,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 76942895,
+              "duration": 77643163,
               "status": "passed"
             },
             "line": 5,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 1549760067,
+              "duration": 995987654,
               "status": "passed"
             },
             "line": 6,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 30082826,
+              "duration": 29597514,
               "status": "passed"
             },
             "line": 7,
@@ -116,7 +116,7 @@
         "before": [
           {
             "result": {
-              "duration": 1823416973,
+              "duration": 1749677462,
               "status": "passed"
             },
             "match": {
@@ -131,7 +131,7 @@
         "after": [
           {
             "result": {
-              "duration": 92020160,
+              "duration": 91812969,
               "status": "passed"
             },
             "match": {
@@ -144,7 +144,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3471395660,
+              "duration": 3406570845,
               "status": "passed"
             },
             "line": 10,
@@ -162,7 +162,7 @@
           },
           {
             "result": {
-              "duration": 131162726,
+              "duration": 158600422,
               "status": "passed"
             },
             "line": 11,
@@ -180,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 73143989,
+              "duration": 77428047,
               "status": "passed"
             },
             "line": 12,
@@ -198,7 +198,7 @@
           },
           {
             "result": {
-              "duration": 2071239077,
+              "duration": 1825847876,
               "status": "passed"
             },
             "line": 13,
@@ -210,13 +210,105 @@
           },
           {
             "result": {
-              "duration": 27532060,
+              "duration": 28261984,
               "status": "passed"
             },
             "line": 14,
             "name": "I see the account page displayed",
             "match": {
               "location": "loginSpecDef.iSeeTheAccountPageDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1520612661,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginSpecDef.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify error message",
+        "description": "",
+        "id": "login-functionality;verify-error-message",
+        "after": [
+          {
+            "result": {
+              "duration": 97526292,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginSpecDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4910783758,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am on Login Page of \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 22
+                }
+              ],
+              "location": "loginSpecDef.iAmOnLoginPageOf(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1990259397,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I Press the Login button",
+            "match": {
+              "location": "loginSpecDef.iPressTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3069972465,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I press the create account button",
+            "match": {
+              "location": "loginSpecDef.iPressTheCreateAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3039700127,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I validate the error message displayed \"Invalid email address.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid email address.\"",
+                  "offset": 39
+                }
+              ],
+              "location": "loginSpecDef.iValidateTheErrorMessageDisplayed(String)"
             },
             "keyword": "Then "
           }

@@ -5,6 +5,7 @@ import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import utilities.driverProvider;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -68,6 +69,40 @@ public class loginSpecDef {
     public void iSeeTheAccountPageDisplayed() {
 
         Assert.assertEquals(driver.findElement(By.id("center_column")).isDisplayed(), true);
+
+    }
+
+    @When("I Press the Login button")
+    public void iPressTheLoginButton() {
+
+        driver.findElement(By.className("login")).click();
+    }
+
+    @And("I press the create account button")
+    public void iPressTheCreateAccountButton() throws InterruptedException {
+
+        driver.findElement(By.name("SubmitCreate")).click();
+        Thread.sleep(3000);
+
+
+    }
+
+    @Then("I validate the error message displayed {string}")
+    public void iValidateTheErrorMessageDisplayed(String textToValidate) throws InterruptedException {
+
+        try {
+
+            Thread.sleep(3000);
+            String errorMessage = driver.findElement(By.id("create_account_error")).getText();
+            org.testng.Assert.assertEquals(errorMessage,textToValidate);
+
+        }
+
+        catch (NoSuchElementException ex){
+
+            org.testng.Assert.fail("no se encontro un elemento para validar");
+
+        }
 
     }
 }

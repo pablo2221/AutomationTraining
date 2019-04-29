@@ -126,4 +126,55 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.scenario({
+  "name": "Verify error message",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am on Login Page of \"http://automationpractice.com/index.php\"",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "loginSpecDef.iAmOnLoginPageOf(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I Press the Login button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "loginSpecDef.iPressTheLoginButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I press the create account button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "loginSpecDef.iPressTheCreateAccountButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I validate the error message displayed \"Invalid email address.\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "loginSpecDef.iValidateTheErrorMessageDisplayed(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 });

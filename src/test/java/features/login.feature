@@ -13,4 +13,12 @@ Feature: Login Functionality
     And I click the sign in button
     Then I see the account page displayed
 
+    # el Escenario de abajo es del proyecto final de automation fundamentals
+
+  Scenario: Verify error message
+    Given I am on Login Page of "http://automationpractice.com/index.php"
+    When I Press the Login button
+    And I press the create account button
+    Then I validate the error message displayed "Invalid email address."
+
 
