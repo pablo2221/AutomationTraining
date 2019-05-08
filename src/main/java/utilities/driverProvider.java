@@ -10,7 +10,10 @@ public class driverProvider {
 
     public static WebDriver driver;
 
-    public static WebDriver createDriver (String browser){
+    public static WebDriver createDriver (){
+
+        Reader config = new Reader();
+        String browser = config.readProperty("BROWSER");
 
         switch (browser){
 

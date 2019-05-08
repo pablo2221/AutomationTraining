@@ -21,7 +21,7 @@ public class loginSpecDef {
     @Before()
     public void setUp(){
 
-        driver = driverProvider.createDriver("chrome");
+        driver = driverProvider.createDriver();
 
     }
 
@@ -108,7 +108,6 @@ public class loginSpecDef {
 
     }
 
-
     @And("I enter the email address {string}")
     public void iEnterTheEmailAddress(String emailAddress) {
 
@@ -141,7 +140,6 @@ public class loginSpecDef {
         }
 
     }
-
 
     @And("I press the Sign in button {string}")
     public void iPressTheSignInButton(String buttonId) {

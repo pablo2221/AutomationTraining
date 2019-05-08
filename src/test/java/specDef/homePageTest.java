@@ -1,3 +1,5 @@
+package specDef;
+
 import org.openqa.selenium.By;
 import pages.homePage;
 import org.openqa.selenium.WebDriver;
