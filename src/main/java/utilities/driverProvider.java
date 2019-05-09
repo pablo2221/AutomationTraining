@@ -15,6 +15,8 @@ public class driverProvider {
         Reader config = new Reader();
         String browser = config.readProperty("BROWSER");
 
+        config.writeProperty("BASEURL","www.gmail.com");
+
         switch (browser){
 
             case "chrome":

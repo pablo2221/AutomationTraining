@@ -16,7 +16,7 @@ public class homePageTest{
     @BeforeClass
     public void setup(){
 
-        driver= driverProvider.createDriver("chrome");
+        driver= driverProvider.createDriver();
         homepage = new homePage(driver);
 
     }

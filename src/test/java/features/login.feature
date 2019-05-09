@@ -1,4 +1,7 @@
+@smokeTesting
 Feature: Login Functionality
+
+  @sanity
   Scenario: Verify unsuccessfully login
     Given I am on Login Page of "http://automationpractice.com/index.php?controller=authentication&back=my-account"
     When I enter a valid username "hola@hola.com"
@@ -6,6 +9,7 @@ Feature: Login Functionality
     And I click the sign in button
     Then I see the error message
 
+  @sanity
   Scenario: Verify successfully login
     Given I am on Login Page of "http://automationpractice.com/index.php?controller=authentication&back=my-account"
     When I enter a valid username "hola@qatest.com"
@@ -15,6 +19,7 @@ Feature: Login Functionality
 
     # a partir de aca son escenarios del curso de fundamentals
 
+  @smoke
   Scenario: Verify error message
     Given I am on Login Page of "http://automationpractice.com/index.php"
     When I Press the Login button
@@ -23,6 +28,7 @@ Feature: Login Functionality
 
     # El escenario corresponde a validar que al colocar datos de una cuenta no creada se muestre un msj de error y se compare con el esperado
 
+  @smoke
   Scenario: Verify Sign in error message
     Given I am on Login Page of "http://automationpractice.com/index.php"
     When I Press the Login button
@@ -33,6 +39,7 @@ Feature: Login Functionality
 
   # Esta prueba simula el proceso de enviar un msj a servicio al cliente agregando un file upload y valida el msj de confirmacion
 
+  @smoke
   Scenario: Verify process to send a message to customer service including a .png attachment
     Given I navigate to contact us page "http://automationpractice.com/index.php?controller=contact"
     When I select from the dropdown the index 1
