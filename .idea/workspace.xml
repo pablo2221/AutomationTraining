@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30aacb66-f0b6-4400-bb6c-51370c298d5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/pages/homePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/utilities/driverProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/utilities/driverProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/utilities/driverProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/homePageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/specDef/loginSpecDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/specDef/loginSpecDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html/cucumber-html-reports/overview-failures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html/cucumber-html-reports/overview-steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cucumberRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/driverProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/driverProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/specDef/homePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/specDef/homePageTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="30aacb66-f0b6-4400-bb6c-51370c298d5a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -495,7 +468,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2160229" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -506,7 +478,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7145923" visible="true" weight="0.3457249" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7145923" weight="0.3457249" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
