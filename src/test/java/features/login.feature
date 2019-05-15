@@ -1,4 +1,4 @@
-@smokeTesting
+
 Feature: Login Functionality
 
   @sanity

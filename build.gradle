@@ -40,10 +40,13 @@ tasks.withType(Test){
     }
 }
 
-task smoke (type: Test){
+task smokeTesting (type: Test){
     tags ="@smoke"
 }
 
+task sanityTesting (type: Test){
+    tags ="@sanity"
+}
 
 
 dependencies {

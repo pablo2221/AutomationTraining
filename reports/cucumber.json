@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2253317604,
+              "duration": 3087554254,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 23,
-        "name": "Verify error message",
+        "line": 5,
+        "name": "Verify unsuccessfully login",
         "description": "",
-        "id": "login-functionality;verify-error-message",
+        "id": "login-functionality;verify-unsuccessfully-login",
         "after": [
           {
             "result": {
-              "duration": 98806901,
+              "duration": 93083867,
               "status": "passed"
             },
             "match": {
@@ -34,15 +34,15 @@
         "steps": [
           {
             "result": {
-              "duration": 5119723351,
+              "duration": 4010035749,
               "status": "passed"
             },
-            "line": 24,
-            "name": "I am on Login Page of \"http://automationpractice.com/index.php\"",
+            "line": 6,
+            "name": "I am on Login Page of \"http://automationpractice.com/index.php?controller\u003dauthentication\u0026back\u003dmy-account\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"http://automationpractice.com/index.php\"",
+                  "val": "\"http://automationpractice.com/index.php?controller\u003dauthentication\u0026back\u003dmy-account\"",
                   "offset": 22
                 }
               ],
@@ -52,195 +52,68 @@
           },
           {
             "result": {
-              "duration": 1762620322,
+              "duration": 130364862,
               "status": "passed"
             },
-            "line": 25,
-            "name": "I Press the Login button",
+            "line": 7,
+            "name": "I enter a valid username \"hola@hola.com\"",
             "match": {
-              "location": "loginSpecDef.iPressTheLoginButton()"
+              "arguments": [
+                {
+                  "val": "\"hola@hola.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "loginSpecDef.iEnterAValidUsername(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3071142946,
+              "duration": 76778535,
               "status": "passed"
             },
-            "line": 26,
-            "name": "I press the create account button",
-            "match": {
-              "location": "loginSpecDef.iPressTheCreateAccountButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3037094746,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "I validate the error message displayed \"Invalid email address.\"",
+            "line": 8,
+            "name": "I enter a invalid password \"nopass\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Invalid email address.\"",
-                  "offset": 39
-                }
-              ],
-              "location": "loginSpecDef.iValidateTheErrorMessageDisplayed(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smokeTesting"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1542983346,
-              "status": "passed"
-            },
-            "match": {
-              "location": "loginSpecDef.setUp()"
-            }
-          }
-        ],
-        "line": 32,
-        "name": "Verify Sign in error message",
-        "description": "",
-        "id": "login-functionality;verify-sign-in-error-message",
-        "after": [
-          {
-            "result": {
-              "duration": 100089558,
-              "status": "passed"
-            },
-            "match": {
-              "location": "loginSpecDef.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 4628879318,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "I am on Login Page of \"http://automationpractice.com/index.php\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"http://automationpractice.com/index.php\"",
-                  "offset": 22
-                }
-              ],
-              "location": "loginSpecDef.iAmOnLoginPageOf(String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1743329224,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "I Press the Login button",
-            "match": {
-              "location": "loginSpecDef.iPressTheLoginButton()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 148022230,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "I enter the email address \"pablo.2221@hotmail.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"pablo.2221@hotmail.com\"",
-                  "offset": 26
-                }
-              ],
-              "location": "loginSpecDef.iEnterTheEmailAddress(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 116773898,
-              "status": "passed"
-            },
-            "line": 36,
-            "name": "I enter the password \"passwordGeneric\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"passwordGeneric\"",
-                  "offset": 21
-                }
-              ],
-              "location": "loginSpecDef.iEnterThePassword(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1159695177,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "I press the Sign in button \"SubmitLogin\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"SubmitLogin\"",
+                  "val": "\"nopass\"",
                   "offset": 27
                 }
               ],
-              "location": "loginSpecDef.iPressTheSignInButton(String)"
+              "location": "loginSpecDef.iEnterAInvalidPassword(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3032777996,
+              "duration": 1434066193,
               "status": "passed"
             },
-            "line": 38,
-            "name": "I validate error message \"Authentication failed.\"",
+            "line": 9,
+            "name": "I click the sign in button",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Authentication failed.\"",
-                  "offset": 25
-                }
-              ],
-              "location": "loginSpecDef.iValidateErrorMessage(String)"
+              "location": "loginSpecDef.iClickTheSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29227508,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see the error message",
+            "match": {
+              "location": "loginSpecDef.iSeeTheErrorMessage()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@smokeTesting"
-          },
-          {
-            "name": "@smoke"
+            "name": "@sanity"
           }
         ]
       },
@@ -248,7 +121,7 @@
         "before": [
           {
             "result": {
-              "duration": 1600585903,
+              "duration": 2117267626,
               "status": "passed"
             },
             "match": {
@@ -256,14 +129,14 @@
             }
           }
         ],
-        "line": 43,
-        "name": "Verify process to send a message to customer service including a .png attachment",
+        "line": 13,
+        "name": "Verify successfully login",
         "description": "",
-        "id": "login-functionality;verify-process-to-send-a-message-to-customer-service-including-a-.png-attachment",
+        "id": "login-functionality;verify-successfully-login",
         "after": [
           {
             "result": {
-              "duration": 91043752,
+              "duration": 94946608,
               "status": "passed"
             },
             "match": {
@@ -276,171 +149,86 @@
         "steps": [
           {
             "result": {
-              "duration": 3026432902,
+              "duration": 3864778782,
               "status": "passed"
             },
-            "line": 44,
-            "name": "I navigate to contact us page \"http://automationpractice.com/index.php?controller\u003dcontact\"",
+            "line": 14,
+            "name": "I am on Login Page of \"http://automationpractice.com/index.php?controller\u003dauthentication\u0026back\u003dmy-account\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"http://automationpractice.com/index.php?controller\u003dcontact\"",
-                  "offset": 30
+                  "val": "\"http://automationpractice.com/index.php?controller\u003dauthentication\u0026back\u003dmy-account\"",
+                  "offset": 22
                 }
               ],
-              "location": "loginSpecDef.iNavigateToContactUsPage(String)"
+              "location": "loginSpecDef.iAmOnLoginPageOf(String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3116352231,
+              "duration": 160244533,
               "status": "passed"
             },
-            "line": 45,
-            "name": "I select from the dropdown the index 1",
+            "line": 15,
+            "name": "I enter a valid username \"hola@qatest.com\"",
             "match": {
               "arguments": [
                 {
-                  "val": "1",
-                  "offset": 37
+                  "val": "\"hola@qatest.com\"",
+                  "offset": 25
                 }
               ],
-              "location": "loginSpecDef.iSelectFromTheDropdownTheIndex(int)"
+              "location": "loginSpecDef.iEnterAValidUsername(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 179153101,
+              "duration": 75502684,
               "status": "passed"
             },
-            "line": 46,
-            "name": "I enter the email address \"pablo.2221@hotmail.com\"",
+            "line": 16,
+            "name": "I enter a invalid password \"testQA\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"pablo.2221@hotmail.com\"",
-                  "offset": 26
+                  "val": "\"testQA\"",
+                  "offset": 27
                 }
               ],
-              "location": "loginSpecDef.iEnterTheEmailAddress(String)"
+              "location": "loginSpecDef.iEnterAInvalidPassword(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 70115017,
+              "duration": 2438376319,
               "status": "passed"
             },
-            "line": 47,
-            "name": "I enter the order reference \"id_order\", \"123456\"",
+            "line": 17,
+            "name": "I click the sign in button",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"id_order\"",
-                  "offset": 28
-                },
-                {
-                  "val": "\"123456\"",
-                  "offset": 40
-                }
-              ],
-              "location": "loginSpecDef.iEnterTheOrderReference(String,String)"
+              "location": "loginSpecDef.iClickTheSignInButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3118505315,
+              "duration": 29094378,
               "status": "passed"
             },
-            "line": 48,
-            "name": "I enter the message \"message\", \"This is a test to validate\"",
+            "line": 18,
+            "name": "I see the account page displayed",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"message\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"This is a test to validate\"",
-                  "offset": 31
-                }
-              ],
-              "location": "loginSpecDef.iEnterTheMessage(String,String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 38927224,
-              "status": "passed"
-            },
-            "line": 49,
-            "name": "I upload the file \"fileUpload\", \"/Users/it/Downloads/test.png\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"fileUpload\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"/Users/it/Downloads/test.png\"",
-                  "offset": 32
-                }
-              ],
-              "location": "loginSpecDef.iUploadTheFile(String,String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1958889446,
-              "status": "passed"
-            },
-            "line": 50,
-            "name": "I press the send message button \"submitMessage\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"submitMessage\"",
-                  "offset": 32
-                }
-              ],
-              "location": "loginSpecDef.iPressTheSendMessageButton(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 30840323,
-              "status": "passed"
-            },
-            "line": 51,
-            "name": "I validate error message \"Your message has been successfully sent to our team.\", \"/html/body/div/div[2]/div/div[3]/div/p\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Your message has been successfully sent to our team.\"",
-                  "offset": 25
-                },
-                {
-                  "val": "\"/html/body/div/div[2]/div/div[3]/div/p\"",
-                  "offset": 81
-                }
-              ],
-              "location": "loginSpecDef.iValidateErrorMessage(String,String)"
+              "location": "loginSpecDef.iSeeTheAccountPageDisplayed()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@smokeTesting"
-          },
-          {
-            "name": "@smoke"
+            "name": "@sanity"
           }
         ]
       }
@@ -450,15 +238,6 @@
     "id": "login-functionality",
     "keyword": "Feature",
     "uri": "file:src/test/java/features/login.feature",
-    "tags": [
-      {
-        "name": "@smokeTesting",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "tags": []
   }
 ]
