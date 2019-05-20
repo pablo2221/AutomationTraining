@@ -1,5 +1,6 @@
 package specDef;
 
+import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
@@ -26,7 +27,17 @@ public class loginSpecDef {
     }
 
     @After()
-    public void tearDown(){
+    public void tearDown(Scenario scenario){
+
+        if(scenario.isFailed()){
+
+            driverProvider.getScreenShotFailed(scenario.getName());
+
+        }else {
+
+            driverProvider.getScreenShotPass(scenario.getName());
+
+        }
 
         driver.quit();
 

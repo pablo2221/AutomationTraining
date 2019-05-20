@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 3087554254,
+              "duration": 3849445300,
               "status": "passed"
             },
             "match": {
@@ -21,11 +21,11 @@
         "after": [
           {
             "result": {
-              "duration": 93083867,
+              "duration": 578670966,
               "status": "passed"
             },
             "match": {
-              "location": "loginSpecDef.tearDown()"
+              "location": "loginSpecDef.tearDown(Scenario)"
             }
           }
         ],
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4010035749,
+              "duration": 3384414453,
               "status": "passed"
             },
             "line": 6,
@@ -52,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 130364862,
+              "duration": 164460769,
               "status": "passed"
             },
             "line": 7,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 76778535,
+              "duration": 114909487,
               "status": "passed"
             },
             "line": 8,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 1434066193,
+              "duration": 1608948224,
               "status": "passed"
             },
             "line": 9,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 29227508,
+              "duration": 29450497,
               "status": "passed"
             },
             "line": 10,
@@ -121,7 +121,7 @@
         "before": [
           {
             "result": {
-              "duration": 2117267626,
+              "duration": 1675513678,
               "status": "passed"
             },
             "match": {
@@ -136,11 +136,11 @@
         "after": [
           {
             "result": {
-              "duration": 94946608,
+              "duration": 676318098,
               "status": "passed"
             },
             "match": {
-              "location": "loginSpecDef.tearDown()"
+              "location": "loginSpecDef.tearDown(Scenario)"
             }
           }
         ],
@@ -149,7 +149,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3864778782,
+              "duration": 3863625939,
               "status": "passed"
             },
             "line": 14,
@@ -167,7 +167,7 @@
           },
           {
             "result": {
-              "duration": 160244533,
+              "duration": 128798632,
               "status": "passed"
             },
             "line": 15,
@@ -185,7 +185,7 @@
           },
           {
             "result": {
-              "duration": 75502684,
+              "duration": 75369916,
               "status": "passed"
             },
             "line": 16,
@@ -203,7 +203,7 @@
           },
           {
             "result": {
-              "duration": 2438376319,
+              "duration": 4791678387,
               "status": "passed"
             },
             "line": 17,
@@ -215,7 +215,7 @@
           },
           {
             "result": {
-              "duration": 29094378,
+              "duration": 26733808,
               "status": "passed"
             },
             "line": 18,

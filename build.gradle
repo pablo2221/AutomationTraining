@@ -58,6 +58,8 @@ dependencies {
     compile group: 'io.cucumber', name: 'cucumber-junit', version: '4.2.6'
     compile group: 'io.cucumber', name: 'cucumber-java', version: '4.2.6'
     
+    //tener cuidado de usar cucumber con testcompile
+    
 }
 
 cucumberReports {

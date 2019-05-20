@@ -4,27 +4,20 @@
     <list default="true" id="30aacb66-f0b6-4400-bb6c-51370c298d5a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/smoke/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/smoke/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/cucumberRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/pages/homePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/utilities/Reader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/utilities/driverProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/specDef/loginSpecDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/specDef/loginSpecDef.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/html/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html/cucumber-html-reports/overview-failures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/html/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html/cucumber-html-reports/overview-features.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/html/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html/cucumber-html-reports/overview-steps.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/html/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html/cucumber-html-reports/overview-tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/html/cucumber-html-reports/report-feature_2833671095.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html/cucumber-html-reports/report-feature_2833671095.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html/cucumber-html-reports/report-tag_4089311534.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html/cucumber-html-reports/report-tag_4089311534.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html/cucumber-html-reports/report-tag_2203492621.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html/cucumber-html-reports/report-tag_2203492621.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/driverProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/driverProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/specDef/loginSpecDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/specDef/loginSpecDef.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -65,13 +58,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="AutomationTraining" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
+                <item name="other" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="AutomationTraining" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -82,11 +74,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cucumberRunner.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/features/login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/specDef/homePageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,16 +95,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/login.feature">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/homePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="13" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utilities/driverProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="255">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,11 +122,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/specDef/loginSpecDef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="1560">
+              <caret line="214" column="1" selection-start-line="45" selection-start-column="4" selection-end-line="214" selection-end-column="1" />
               <folding>
-                <element signature="method#setUp#0;class#loginSpecDef#0" />
-                <element signature="method#tearDown#0;class#loginSpecDef#0" />
+                <element signature="imports" expanded="true" />
                 <element signature="method#iAmOnLoginPageOf#0;class#loginSpecDef#0" />
                 <element signature="method#iEnterAValidUsername#0;class#loginSpecDef#0" />
                 <element signature="method#iEnterAInvalidPassword#0;class#loginSpecDef#0" />
@@ -156,32 +166,39 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pages/homePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/homePageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cucumberRunning.java" />
         <option value="$PROJECT_DIR$/config.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/specDef/loginSpecDef.java" />
-        <option value="$PROJECT_DIR$/src/test/java/specDef/homePageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/utilities/Reader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utilities/driverProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/cucumberRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/login.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/specDef/loginSpecDef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utilities/driverProvider.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/features/login.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/homePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/specDef/homePageTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1700" />
-    <option name="y" value="128" />
-    <option name="width" value="1440" />
-    <option name="height" value="825" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1790" />
+    <option name="y" value="110" />
+    <option name="width" value="1301" />
+    <option name="height" value="710" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,20 +209,7 @@
             <path>
               <item name="AutomationTraining" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationTraining" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTraining" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTraining" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumber-html-reports" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationTraining" type="b2602c69:ProjectViewProjectNode" />
@@ -241,11 +245,40 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AutomationTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTraining" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTraining" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTraining" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTraining" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="specDef" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,7 +291,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -272,16 +305,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.AutomationTraining [sanityTesting]">
-    <configuration name="Scenario: Verify Sign in error message" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Gradle.AutomationTraining [smokeTesting]">
+    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/login.feature" />
       <option name="GLUE" value="specDef" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="AutomationTraining.test" />
-      <option name="NAME_FILTER" value="^Verify Sign in error message$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Verify Sign in error message$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify Sign in error message" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: login" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -292,15 +324,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify process to send a message to customer service including a .png attachment" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify unsuccessfully login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/login.feature" />
       <option name="GLUE" value="specDef" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="AutomationTraining.test" />
-      <option name="NAME_FILTER" value="^Verify process to send a message to customer service including a \.png attachment$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Verify process to send a message to customer service including a \.png attachment$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify process to send a message to customer service including a .png attachment" />
+      <option name="NAME_FILTER" value="^Verify unsuccessfully login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Verify unsuccessfully login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify unsuccessfully login" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -311,7 +343,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutomationTraining [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AutomationTraining [generateCucumberReports]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -322,7 +354,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="generateCucumberReports" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -349,18 +381,18 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AutomationTraining [smoke]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AutomationTraining [smokeTesting]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--scan" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="smoke" />
+            <option value="smokeTesting" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -369,19 +401,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Scenario: Verify Sign in error message" />
-      <item itemvalue="Cucumber java.Scenario: Verify process to send a message to customer service including a .png attachment" />
-      <item itemvalue="Gradle.AutomationTraining [build]" />
-      <item itemvalue="Gradle.AutomationTraining [smoke]" />
+      <item itemvalue="Cucumber java.Feature: login" />
+      <item itemvalue="Cucumber java.Scenario: Verify unsuccessfully login" />
       <item itemvalue="Gradle.AutomationTraining [sanityTesting]" />
+      <item itemvalue="Gradle.AutomationTraining [generateCucumberReports]" />
+      <item itemvalue="Gradle.AutomationTraining [smokeTesting]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AutomationTraining [smokeTesting]" />
+        <item itemvalue="Cucumber java.Scenario: Verify unsuccessfully login" />
+        <item itemvalue="Gradle.AutomationTraining [generateCucumberReports]" />
+        <item itemvalue="Cucumber java.Feature: login" />
         <item itemvalue="Gradle.AutomationTraining [sanityTesting]" />
-        <item itemvalue="Gradle.AutomationTraining [smoke]" />
-        <item itemvalue="Gradle.AutomationTraining [build]" />
-        <item itemvalue="Cucumber java.Scenario: Verify Sign in error message" />
-        <item itemvalue="Cucumber java.Scenario: Verify process to send a message to customer service including a .png attachment" />
       </list>
     </recent_temporary>
   </component>
@@ -407,42 +439,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AutomationTraining_[smoke] - 2019.05.08 at 17h 47m 48s.xml">
-      <configuration name="AutomationTraining [smoke]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="AutomationTraining_[smoke] - 2019.05.08 at 17h 48m 37s.xml">
-      <configuration name="AutomationTraining [smoke]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="AutomationTraining_[smoke] - 2019.05.08 at 17h 49m 40s.xml">
-      <configuration name="AutomationTraining [smoke]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="AutomationTraining_[smoke] - 2019.05.08 at 17h 51m 32s.xml">
-      <configuration name="AutomationTraining [smoke]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="AutomationTraining_[smoke] - 2019.05.08 at 17h 57m 06s.xml">
-      <configuration name="AutomationTraining [smoke]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="AutomationTraining_[smoke] - 2019.05.08 at 17h 58m 27s.xml">
-      <configuration name="AutomationTraining [smoke]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="AutomationTraining_[smoke] - 2019.05.08 at 18h 07m 21s.xml">
-      <configuration name="AutomationTraining [smoke]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="AutomationTraining_[smoke] - 2019.05.10 at 15h 18m 32s.xml">
-      <configuration name="AutomationTraining [smoke]" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="AutomationTraining_[smoke] - 2019.05.10 at 15h 19m 25s.xml">
       <configuration name="AutomationTraining [smoke]" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="AutomationTraining_[sanityTesting] - 2019.05.15 at 15h 01m 31s.xml">
       <configuration name="AutomationTraining [sanityTesting]" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="Feature__login - 2019.05.15 at 16h 31m 24s.xml">
+      <configuration name="Feature: login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__login - 2019.05.15 at 16h 43m 07s.xml">
+      <configuration name="Feature: login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__login - 2019.05.15 at 16h 45m 19s.xml">
+      <configuration name="Feature: login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_unsuccessfully_login - 2019.05.18 at 13h 32m 40s.xml">
+      <configuration name="Scenario: Verify unsuccessfully login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_unsuccessfully_login - 2019.05.18 at 13h 41m 21s.xml">
+      <configuration name="Scenario: Verify unsuccessfully login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_unsuccessfully_login - 2019.05.18 at 13h 45m 31s.xml">
+      <configuration name="Scenario: Verify unsuccessfully login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="AutomationTraining_[smokeTesting] - 2019.05.19 at 14h 35m 13s.xml">
+      <configuration name="AutomationTraining [smokeTesting]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="AutomationTraining_[smokeTesting] - 2019.05.19 at 14h 35m 25s.xml">
+      <configuration name="AutomationTraining [smokeTesting]" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="1790" y="110" width="1301" height="710" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16506922" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36536935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -451,7 +482,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7145923" visible="true" weight="0.34447822" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7145923" weight="0.37983194" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -460,13 +491,13 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.28540772" side_tool="true" weight="0.37546468" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.23708206" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3283767" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3277311" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2494043" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.13365282" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.22716442" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -476,18 +507,15 @@
     <MESSAGE value="ADD new classes" />
     <option name="LAST_COMMIT_MESSAGE" value="ADD new classes" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/homePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -520,10 +548,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/Verify Sign in error message.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/Verify error message.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/failed/Verify error message.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/html/cucumber-html-reports/overview-features.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cucumberRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/specDef/homePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="120">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/homePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="13" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -532,42 +605,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utilities/driverProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cucumberRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reports/html/cucumber-html-reports/overview-features.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="255">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -576,11 +615,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/specDef/loginSpecDef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="1560">
+          <caret line="214" column="1" selection-start-line="45" selection-start-column="4" selection-end-line="214" selection-end-column="1" />
           <folding>
-            <element signature="method#setUp#0;class#loginSpecDef#0" />
-            <element signature="method#tearDown#0;class#loginSpecDef#0" />
+            <element signature="imports" expanded="true" />
             <element signature="method#iAmOnLoginPageOf#0;class#loginSpecDef#0" />
             <element signature="method#iEnterAValidUsername#0;class#loginSpecDef#0" />
             <element signature="method#iEnterAInvalidPassword#0;class#loginSpecDef#0" />
@@ -607,13 +645,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="504">
+          <caret line="64" selection-start-line="64" selection-end-line="68" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/login.feature">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -665,7 +707,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>AutomationTraining</last-edited>
+          <last-edited>test|AutomationTraining</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

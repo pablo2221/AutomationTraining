@@ -1,9 +1,15 @@
 package utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.io.FileHandler;
+
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class driverProvider {
@@ -36,5 +42,33 @@ public class driverProvider {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.MINUTES);
 
         return  driver;
+    }
+
+    public static void getScreenShotPass (String filename){
+
+
+        try {
+            File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+            FileHandler.copy(scrFile, new File("./screenshots/pass/" + filename +".png"));
+            System.out.println("Screenshot was taken");
+        } catch (IOException e) {
+            System.out.println("Exception while taking screenshot " + e.getMessage());
+        }
+
+
+    }
+
+    public static void getScreenShotFailed (String filename){
+
+
+        try {
+            File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+            FileHandler.copy(scrFile, new File("./screenshots/failed/" + filename +".png"));
+            System.out.println("Screenshot was taken");
+        } catch (IOException e) {
+            System.out.println("Exception while taking screenshot " + e.getMessage());
+        }
+
+
     }
 }

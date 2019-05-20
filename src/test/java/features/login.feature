@@ -24,7 +24,7 @@ Feature: Login Functionality
     Given I am on Login Page of "http://automationpractice.com/index.php"
     When I Press the Login button
     And I press the create account button
-    Then I validate the error message displayed "Invalid email address."
+    Then I validate the error message displayed "Invalid email addresss."
 
     # El escenario corresponde a validar que al colocar datos de una cuenta no creada se muestre un msj de error y se compare con el esperado
 
